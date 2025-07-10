@@ -17,15 +17,15 @@ export const TransactionTableForAccounts = (props: TransactionTableForAccountsPr
         }}
       >
         <>
-          <H2 bottom>Transaksjoner</H2>
+          <H2 bottom>Transactions</H2>
           <Table sticky="css-position">
             <thead>
               <Tr>
-                <Th>Avsenders navn</Th>
-                <Th>Avsender land</Th>
-                <Th>Mottakers navn</Th>
-                <Th>Mottakers land</Th>
-                <Th>Beløp</Th>
+                <Th>Sender's name</Th>
+                <Th>Sender's country</Th>
+                <Th>Recipient's name</Th>
+                <Th>Recipient's country</Th>
+                <Th>Amount</Th>
               </Tr>
             </thead>
             <tbody>

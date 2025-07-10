@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Tabs } from "@dnb/eufemia";
 import Welcome from "../code/Intro/Welcome";
-import CustomerPage from "../code/Oppgave1/CustomerPage";
+import CustomerPage from "../code/Task1/CustomerPage";
 import { TransactionsPage } from "./codeDump";
 import InputField from "./InputField";
 import styled from "styled-components";
@@ -26,7 +26,7 @@ export default function App() {
     if (window.sessionStorage.getItem("currentTab") != null) {
       return window.sessionStorage.getItem("currentTab");
     }
-    return "Velkommen";
+    return "Welcome";
   });
   const [currentTaskTab, setCurrentTaskTab] = useState<number>(() => {
     if (window.sessionStorage.getItem("currentTaskTab") != null) {
@@ -71,16 +71,16 @@ export default function App() {
             }}
             data={[
               {
-                title: "Velkommen",
-                key: "Velkommen",
+                title: "Welcome",
+                key: "Welcome",
               },
               {
-                title: "Min profil",
-                key: "Kunde",
+                title: "My profile",
+                key: "MyProfile",
               },
               {
-                title: "Transaksjoner",
-                key: "Etterforsker",
+                title: "Transactions",
+                key: "Transactions",
               },
             ]}
             selected_key={currentTab}
@@ -92,11 +92,11 @@ export default function App() {
       </FlexWrapper>
       <Tabs.Content id="tabs">
         {({ key }) => {
-          if (key == "Velkommen") {
+          if (key == "Welcome") {
             return <Welcome setCurrentTab={setCurrentTab} />;
-          } else if (key == "Kunde") {
+          } else if (key == "MyProfile") {
             return <CustomerPage setCurrentTab={setCurrentTab} />;
-          } else if (key == "Etterforsker") {
+          } else if (key == "Transactions") {
             return <TransactionsPage setCurrentTab={setCurrentTab} />;
           }
         }}
