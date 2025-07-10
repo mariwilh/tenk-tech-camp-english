@@ -17,7 +17,7 @@ export interface DashboardProps {
   setCurrentSubTab: Function;
 }
 
-/** Dashboard er en funksjon som returnerer koden til Dashboard siden. Kan finnes dersom du logger inn som etterforsker */
+/* Dashboard is a function that returns the code for the "Overview page". This can be found in the "Transactions" tab */
 export default function Dashboard(props: DashboardProps) {
   const { setCurrentSubTab } = props;
   setCurrentSubTab("Dashboard");
@@ -25,19 +25,19 @@ export default function Dashboard(props: DashboardProps) {
   return (
     <Provider locale="nb-NO" NumberFormat={{ currency: "NOK" }}>
       <div className="DashboardTab">
-        {/* Oppgave 2A: Her finner du overskriften til siden */}
+        {/* TASK 2A: The title of the page is here */}
         <H1 style={{ fontSize: "small" }}>Dashboard</H1>
         <div className="chart-container">
           <div>
             <PieChart
-              title={"Innenlands vs. utenlands transaksjoner"}
+              title={"Domestic vs. foreign transaksjoner"}
               data={pieChartData}
             />
           </div>
 
           <div>
             <BarChart
-              title={"Antall transaksjoner til ulike land"}
+              title={"Transactions to different countries"}
               data={barChartData}
             />
           </div>
@@ -45,13 +45,13 @@ export default function Dashboard(props: DashboardProps) {
 
         <div className="DashboardBottom">
           <InfoCard
-            title="Antall transaksjoner totalt"
+            title="Amount of transactions"
             text={getAllTransactions().length}
             icon={card_in_medium}
             space="x-small"
           />
           <InfoCard
-            title="Penger overført totalt"
+            title="Money transferred"
             text={sumTransactions()}
             icon={account_medium}
             space="x-small"
@@ -62,20 +62,20 @@ export default function Dashboard(props: DashboardProps) {
   );
 }
 
-/* Oppgave 2C: Her må du legge til Russland to steder */
+/* TASK 2C: Add Russia two places */
 const barChartData = {
-  labels: ["Norge", "Sverige", "Danmark", "USA", "Spania", "Italia"],
+  labels: ["Norway", "Sweden", "Denmark", "USA", "Spain", "Italy"],
   datasets: [
     {
-      /* Oppgave 2B: Her kan du legge til "Antall" */
+      /* TASK 2B: Add "Amount" here */
       label: "?????",
       data: [
-        countTargetCountries("Norge"),
-        countTargetCountries("Sverige"),
-        countTargetCountries("Danmark"),
+        countTargetCountries("Norway"),
+        countTargetCountries("Sweden"),
+        countTargetCountries("Denmark"),
         countTargetCountries("USA"),
-        countTargetCountries("Spania"),
-        countTargetCountries("Italia"),
+        countTargetCountries("Spain"),
+        countTargetCountries("Italy"),
       ],
       backgroundColor: colorPicker.SuccessGreen,
     },
@@ -83,10 +83,10 @@ const barChartData = {
 };
 
 const pieChartData = {
-  labels: ["Innenlands", "Utenlands"],
+  labels: ["Domestic", "Foreign"],
   datasets: [
     {
-      label: "Antall",
+      label: "Amount",
       data: countCrossBorderTransactions(),
 
       backgroundColor: [

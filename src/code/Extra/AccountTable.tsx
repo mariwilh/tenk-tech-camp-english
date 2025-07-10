@@ -5,10 +5,10 @@ import { NumberFormat, Table, Td, Th, Tr } from "@dnb/eufemia";
 import { findBalance } from "../../ignore/AccountPage";
 
 export interface AccountTableProps {
-  accountList: Account[] /*listen over alle kundens kontoer */;
-  setAccountClicked: Function /*en funksjon som sjekker om kontoen har blitt klikket på tidligere */;
+  accountList: Account[] /* The list over all your accounts on "My profile" */;
+  setAccountClicked: Function /* A function that checks if the account has been clicked earlier */;
 }
-/** AccountTable er en funksjon som returnerer koden til kontotabellen under kundens bilde.*/
+/* AccountTable is a function that returns the code for the account table underneath your profile picture. */
 export default function AccountTable(props: AccountTableProps) {
   const { accountList, setAccountClicked } = props;
 
@@ -23,9 +23,9 @@ export default function AccountTable(props: AccountTableProps) {
         <Table sticky="css-position">
           <thead>
             <Tr>
-              <Th>Navn</Th>
-              <Th>Kontonummer</Th>
-              <Th>Saldo</Th>
+              <Th>Name</Th>
+              <Th>Account number</Th>
+              <Th>Balance</Th>
             </Tr>
           </thead>
           <tbody>
@@ -47,10 +47,11 @@ export default function AccountTable(props: AccountTableProps) {
       </Table.ScrollView>
     </Provider>
   );
-  {
-    /** En funksjon som returnerer ett knappelement med link til transaksjonslisten til en konto.
-     Tar kontoattributtet som skal være klikkbart som argument */
-  }
+  
+  /* 
+    "getTransactionLink" is a function that returns a button element with a link to the transactionslist of an account.
+    As an argument (the value inside the parenthesis), it takes the account attribute you want to be clickable 
+  */
   function getTransactionLink(accountIdentifier: String) {
     return (
       <button

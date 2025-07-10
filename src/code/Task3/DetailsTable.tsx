@@ -7,23 +7,23 @@ export type TransactionTableProps = {
   listOfTransactions: Transaction[];
 };
 
-/** OPPGAVE 3C: */
+/* TASK 3C: */
 export function detectRiskCountry(country: String): String | undefined {
 
-  if (country === "land" ){
-    return "Ukjent";
+  if (country === "country" ){
+    return "Unknown";
   } else {
-    return "Ukjent";
+    return "Unknown";
   }
 }
 
-/** OPPGAVE 3D */
+/* TASK 3D */
 function setColorForHighRisk(risk: String): any {
   return "black";
 }
 
-/** Transactions returnerer koden som visualiserer transaksjonstabellen mellom alle kunder. 
- * Logg inn som etterforsker og trykk på fanen hvor det står Transaksjoner for å se resultatet på denne koden */
+/* TransactionsTable returns the code that visualises the table of transactions between all customers
+  Open the tab "Transactions" and click on "Details" to see these transactions. */
 export const TransactionTable = (props: TransactionTableProps) => {
   const { listOfTransactions } = props;
 
@@ -34,16 +34,16 @@ export const TransactionTable = (props: TransactionTableProps) => {
           maxHeight: "60rem",
         }}
       >
-        {/* Oppgave 3: Her kan du endre på utseendet og innholdet til transaksjoner-tabellen */}
+        {/* TASK 3: Change the look and content of the transaction table here! */}
         <Table sticky="css-position">
           <thead>
             <Tr>
-              <Th>Avsenders navn</Th>
-              <Th>Avsenders land</Th>
-              <Th>Mottakers navn</Th>
-              {/*Oppgave 3B: legg til overskrift her */}
-              <Th>Beløp</Th>
-              <Th>Risiko</Th>
+              <Th>Sender's name</Th>
+              <Th>Sender's country</Th>
+              <Th>Recipient's name</Th>
+              {/*TASK 3B: Add the subtitle here */}
+              <Th>Amount</Th>
+              <Th>Risk</Th>
             </Tr>
           </thead>
           <tbody>
@@ -52,7 +52,7 @@ export const TransactionTable = (props: TransactionTableProps) => {
                 <Td>{transaction.from.name}</Td>
                 <Td>{transaction.from.country}</Td>
                 <Td>{transaction.to.name}</Td>
-                {/*Oppgave 3B: legg til innhold her */}
+                {/*TASK 3B: Add the content here */}
                 <Td>
                   <NumberFormat>{transaction.amount}</NumberFormat>
                 </Td>
