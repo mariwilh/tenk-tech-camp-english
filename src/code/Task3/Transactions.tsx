@@ -4,22 +4,24 @@ import { TransactionTable } from "./DetailsTable";
 import { filterTable } from "../../ignore/codeDump";
 
 export enum Parameter {
-  FROM_NAME = "Avsenders navn",
-  FROM_COUNTRY = "Avsenders land",
-  TO_NAME = "Mottakers navn",
-  TO_COUNTRY = "Mottakers land",
-  AMOUNT = "Beløp",
-  RISK = "Risiko",
+  FROM_NAME = "Sender's name",
+  FROM_COUNTRY = "Sender's country",
+  TO_NAME = "Recipient's name",
+  TO_COUNTRY = "Sender's country",
+  AMOUNT = "Amount",
+  RISK = "Risk",
 }
 
 export interface TransactionsProps {
   setCurrentSubTab: Function;
 }
 
-/** Transactions returnerer koden som visualiserer transaksjonssiden mellom alle kunder. Logg inn som etterforsker og trykk på fanen hvor det står Transaksjoner for å se resultatet på denne koden */
+/* Transactions returns the code that visualises the details page. 
+Go to the tab "Transactions" and "Details" to see this page. */
+
 export default function Transactions(props: TransactionsProps) {
   const { setCurrentSubTab } = props;
-  setCurrentSubTab("Transaksjoner");
+  setCurrentSubTab("Details");
 
   const [inputText, setInputText] = React.useState("");
   const handleInputText = (event) => {
@@ -30,8 +32,8 @@ export default function Transactions(props: TransactionsProps) {
   return (
     <Section spacing="small" left right style_type="white">
       <div className="TransactionsTab">
-        <H1>Oversikt over alle transaksjoner i DNB</H1>
-        {/* Oppgave 3A: legg til et avsnitt her! */}
+        <H1>Overview over all transactions in DNB</H1>
+        {/* TASK 3A: Add a paragraph here! */}
         <Section style_type="white">
           <Section spacing>
             <Dropdown
@@ -42,8 +44,8 @@ export default function Transactions(props: TransactionsProps) {
                 Parameter.AMOUNT,
                 Parameter.RISK,
               ]}
-              label="Parameter som skal filtreres på:"
-              title="Velg parameter"
+              label="Parameter to filter on:"
+              title="Choose parameter"
               on_change={({ data }) => setInputParameter(data)}
             />
             <Input

@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
-import AccountTable from "../Ekstra/AccountTable";
+import AccountTable from "../Extra/AccountTable";
 import { customer } from "../../data/customer";
-import ukjent from "./Profilbilder/ukjent.png";
-import BTS from "./Profilbilder/BTS.png";
-import EmmaWatson from "./Profilbilder/EmmaWatson.png";
-import GirlInRed from "./Profilbilder/GirlInRed.png";
-import GretaThunberg from "./Profilbilder/GretaThunberg.png";
-import MarcusMartinus from "./Profilbilder/MarcusMartinus.png";
-import MillieBobbyBrown from "./Profilbilder/MillieBobbyBrown.png";
-import TaylorSwift from "./Profilbilder/TaylorSwift.png";
-import Zendaya from "./Profilbilder/Zendaya.png";
+import unknown from "./ProfilePictures/unknown.png";
+import BTS from "./ProfilePictures/BTS.png";
+import EmmaWatson from "./ProfilePictures/EmmaWatson.png";
+import GirlInRed from "./ProfilePictures/GirlInRed.png";
+import GretaThunberg from "./ProfilePictures/GretaThunberg.png";
+import MarcusMartinus from "./ProfilePictures/MarcusMartinus.png";
+import MillieBobbyBrown from "./ProfilePictures/MillieBobbyBrown.png";
+import TaylorSwift from "./ProfilePictures/TaylorSwift.png";
+import Zendaya from "./ProfilePictures/Zendaya.png";
 import { H1, H2, Img, Section } from "@dnb/eufemia";
 import "../../ignore/styles.css";
 import AccountPage from "../../ignore/AccountPage";
@@ -18,10 +18,10 @@ export interface CustomerPageProps {
   setCurrentTab: Function;
 }
 
-/** CustomerPage er en funksjon som returnerer koden til kundesiden, sett når man logger inn som kunde */
+/* CustomerPage is a function that returns the code on the "My profile" page */
 export default function CustomerPage(props: CustomerPageProps) {
   const { setCurrentTab } = props;
-  setCurrentTab("Kunde");
+  setCurrentTab("MyProfile");
   const [accountClicked, setAccountClicked] = useState("Customer");
 
   return (
@@ -29,11 +29,11 @@ export default function CustomerPage(props: CustomerPageProps) {
       <div className="CustomerTab">
         {accountClicked === "Customer" && (
           <>
-            {/* Oppgave 1A: Her kan du endre overskriften */}
-            <H1>Velkommen ukjent!</H1>
+            {/* TASK 1A: Edit this title */}
+            <H1>Welcome unknown!</H1>
             <Img
-              /* Oppgave 1B: Her kan du endre bilde */
-              src={ukjent}
+              /* TASK 1B: You can edit the profile picture here */
+              src={unknown}
               alt="User Picture"
               width="250rem"
               height="250rem"
@@ -42,7 +42,7 @@ export default function CustomerPage(props: CustomerPageProps) {
               top
             />
             <Section style_type="lavender" spacing>
-              <H2 bottom>Kontoer</H2>
+              <H2 bottom>Accounts</H2>
               <AccountTable
                 accountList={customer.accounts}
                 setAccountClicked={setAccountClicked}
