@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import { allDNBTransactions } from "../data/transactions";
 import { customer } from "../data/customer";
 import { H1, H2, Section, Tabs, NumberFormat } from "@dnb/eufemia";
-import Transactions from "../code/Oppgave3/Transactions";
+import Transactions from "../code/Task3/Transactions";
 import { Transaction } from "../ignore/Models";
-import { Parameter } from "../code/Oppgave3/Transactions";
-import { detectRiskCountry } from "../code/Oppgave3/DetailsTable";
-import Dashboard from "../code/Oppgave2/Overview";
+import { Parameter } from "../code/Task3/Transactions";
+import { detectRiskCountry } from "../code/Task3/DetailsTable";
+import Dashboard from "../code/Task2/Overview";
 
 export function getAllTransactions() {
   const allCustomerTransactions = customer.accounts.flatMap(
@@ -21,7 +21,7 @@ export interface TransactionsPageProps {
 
 export function TransactionsPage(props: TransactionsPageProps) {
   const { setCurrentTab } = props;
-  setCurrentTab("Etterforsker");
+  setCurrentTab("Transactions");
   const [currentSubTab, setCurrentSubTab] = useState<string>(() => {
     if (window.sessionStorage.getItem("currentSubTab") != null) {
       return window.sessionStorage.getItem("currentSubTab");
@@ -39,7 +39,7 @@ export function TransactionsPage(props: TransactionsPageProps) {
       selected_key={currentSubTab}
       data={[
         {
-          title: "Oversikt",
+          title: "Overview",
           key: "Dashboard",
           content: (
             <div className="DashboardTab">
@@ -48,8 +48,8 @@ export function TransactionsPage(props: TransactionsPageProps) {
           ),
         },
         {
-          title: "Detaljer",
-          key: "Transaksjoner",
+          title: "Details",
+          key: "Details",
           content: (
             <div className="TransactionsTab">
               <Transactions setCurrentSubTab={setCurrentSubTab} />

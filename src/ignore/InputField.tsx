@@ -25,48 +25,46 @@ export default function InputField() {
         type="text"
         onChange={handleInputText}
         value={inputText}
-        placeholder="Navn på kriminell"
+        placeholder="Name"
         stretch
         style={{ minWidth: "200px" }}
         suffix={
           <Dialog
             triggerAttributes={{
-              text: "Rapporter person",
-              tooltip: "Rapporter personen til Politiet",
+              text: "Report person",
+              tooltip: "Report to the police",
             }}
             onOpen={() => {
               if (
-                inputText.toLowerCase().split(" ").join("") === "jonasgahrstøre"
+                inputText.toLowerCase().split(" ").join("") === "jonasgahrstøre" || inputText.toLowerCase().split(" ").join("") === "jonasgahrstore"
               ) {
                 triggerConfetti();
               }
             }}
             title={
-              inputText.toLowerCase().split(" ").join("") === "jonasgahrstøre"
-                ? "Gratulerer!"
-                : "Prøv igjen!"
+              inputText.toLowerCase().split(" ").join("") === "jonasgahrstøre" || inputText.toLowerCase().split(" ").join("") === "jonasgahrstore"
+                ? "Congratulations!"
+                : "Try again!"
             }
           >
-            {inputText.toLowerCase().split(" ").join("") ===
-            "jonasgahrstøre" ? (
+            { inputText.toLowerCase().split(" ").join("") === "jonasgahrstøre" || inputText.toLowerCase().split(" ").join("") === "jonasgahrstore" ? (
               <P>
-                Du har løst saken!
+                You have solved the case!
                 <br />
                 <br />
-                Jonas Gahr Støre, statsministeren i Norge, har ulovlig overført
-                penger til Russland. Heldigvis klarte du å oppdage det og
-                anmelde det til politiet.
+                Jonas Gahr Støre, the Prime Minister of Norway, has illegally transferred money to Russia. 
+
+                Luckily you were able to detect this illegal activity and report it to the police!  
                 <br />
                 <br />
-                Bra jobba og takk for din hjelp!
+                Well done and thank you for your help! 
               </P>
             ) : (
               <P>
-                Det ser ikke ut som navnet du har skrevet inn er helt riktig.
+                The name you entered is not correct. 
                 <br />
                 <br />
-                Her må du nok se gjennom transaksjonene på nytt for å finne
-                riktig person å anmelde.
+                Try to look through the transactions again to find the correct person!
               </P>
             )}
           </Dialog>

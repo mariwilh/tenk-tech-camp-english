@@ -3,11 +3,11 @@ export var allDNBTransactions = [
     id: "900",
     from: {
       name: "Andre Skaug Amundsen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Mathilda Djerf",
-      country: "Sverige",
+      country: "Sweden",
     },
     amount: 1133,
   },
@@ -15,11 +15,11 @@ export var allDNBTransactions = [
     id: "1000",
     from: {
       name: "Erling Fjeldberg",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Victoria Fritz",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 200,
   },
@@ -27,11 +27,11 @@ export var allDNBTransactions = [
     id: "1100",
     from: {
       name: "Louise Angelica Riise",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "David Eriksen",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 823,
   },
@@ -39,11 +39,11 @@ export var allDNBTransactions = [
     id: "12",
     from: {
       name: "Therese Vinje",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Martine Lunde",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 7210,
   },
@@ -51,11 +51,11 @@ export var allDNBTransactions = [
     id: "13",
     from: {
       name: "Sophie Elise Iscahsen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Snorre Klanderud",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 358,
   },
@@ -63,11 +63,11 @@ export var allDNBTransactions = [
     id: "14",
     from: {
       name: "Andreas Haukeland",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Morgan Alexander Lund",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 3118,
   },
@@ -75,11 +75,11 @@ export var allDNBTransactions = [
     id: "15",
     from: {
       name: "Mikkel Christensen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Maria Bakken",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 100103,
   },
@@ -87,11 +87,11 @@ export var allDNBTransactions = [
     id: "16",
     from: {
       name: "Sophie Karlstad",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Kjerstin Braathen",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 1929,
   },
@@ -99,11 +99,11 @@ export var allDNBTransactions = [
     id: "17",
     from: {
       name: "Erle Vigdal",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Henrik von Gogg Mayer",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 8443,
   },
@@ -123,11 +123,11 @@ export var allDNBTransactions = [
     id: "19",
     from: {
       name: "Valeria Owren",
-      country: "Sverige",
+      country: "Sweden",
     },
     to: {
       name: "Simen Eriksen",
-      country: "Sverige",
+      country: "Sweden",
     },
     amount: 76469,
   },
@@ -135,11 +135,11 @@ export var allDNBTransactions = [
     id: "20",
     from: {
       name: "Mille Victoria Heimdal",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Ingrid Martinsen",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 81888,
   },
@@ -147,7 +147,7 @@ export var allDNBTransactions = [
     id: "21",
     from: {
       name: "Frida Aasen",
-      country: "Italia",
+      country: "Italy",
     },
     to: {
       name: "Bella Hadid",
@@ -159,11 +159,11 @@ export var allDNBTransactions = [
     id: "22",
     from: {
       name: "Marius Ruud",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Ingrid Alexandra",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 98871,
   },
@@ -171,7 +171,7 @@ export var allDNBTransactions = [
     id: "23",
     from: {
       name: "Håkon Maundal",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Lily Rose Depp",
@@ -183,7 +183,7 @@ export var allDNBTransactions = [
     id: "24",
     from: {
       name: "Oskar Westerlien",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Sophie Stray",
@@ -195,11 +195,11 @@ export var allDNBTransactions = [
     id: "25",
     from: {
       name: "Augustus Wilson",
-      country: "Spania",
+      country: "Spain",
     },
     to: {
       name: "Lene Alexandra Øien",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 11471,
   },
@@ -207,11 +207,11 @@ export var allDNBTransactions = [
     id: "26",
     from: {
       name: "Alexander Chase",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Henrik Viken",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 4045,
   },
@@ -219,11 +219,11 @@ export var allDNBTransactions = [
     id: "27",
     from: {
       name: "Ruby Trey",
-      country: "Danmark",
+      country: "Denmark",
     },
     to: {
       name: "Andreas Vister",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 16184,
   },
@@ -231,11 +231,11 @@ export var allDNBTransactions = [
     id: "28",
     from: {
       name: "Victoria Fritz",
-      country: "Danmark",
+      country: "Denmark",
     },
     to: {
       name: "Alexander Chase",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 7394,
   },
@@ -243,11 +243,11 @@ export var allDNBTransactions = [
     id: "29",
     from: {
       name: "Josephine Baldwin",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Marius Borg Høiby",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 13681,
   },
@@ -255,7 +255,7 @@ export var allDNBTransactions = [
     id: "30",
     from: {
       name: "Mathilda Djerf",
-      country: "Sverige",
+      country: "Sweden",
     },
     to: {
       name: "Hailey Bieber",
@@ -267,11 +267,11 @@ export var allDNBTransactions = [
     id: "31",
     from: {
       name: "Violet Lee",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Timothee Chalamet",
-      country: "Italia",
+      country: "Italy",
     },
     amount: 7043,
   },
@@ -279,7 +279,7 @@ export var allDNBTransactions = [
     id: "32",
     from: {
       name: "Charles McKinsey",
-      country: "Italia",
+      country: "Italy",
     },
     to: {
       name: "Tom Holland",
@@ -291,7 +291,7 @@ export var allDNBTransactions = [
     id: "33",
     from: {
       name: "Thomas Hamilton",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Armie Hammer",
@@ -304,11 +304,11 @@ export var allDNBTransactions = [
     id: "34",
     from: {
       name: "Winston Harley",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Rebecca Ferguson",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 12898,
   },
@@ -316,7 +316,7 @@ export var allDNBTransactions = [
     id: "35",
     from: {
       name: "William Larsen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Austin Butler",
@@ -328,7 +328,7 @@ export var allDNBTransactions = [
     id: "36",
     from: {
       name: "Sophie Stray",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Harry Styles",
@@ -340,11 +340,11 @@ export var allDNBTransactions = [
     id: "37",
     from: {
       name: "Øyunn Krogh",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Emma Watson",
-      country: "Spania",
+      country: "Spain",
     },
     amount: 18905,
   },
@@ -364,11 +364,11 @@ export var allDNBTransactions = [
     id: "39",
     from: {
       name: "Agneta Archibald",
-      country: "Italia",
+      country: "Italy",
     },
     to: {
       name: "Vittoria Ceretti",
-      country: "Spania",
+      country: "Spain",
     },
     amount: 14896,
   },
@@ -376,11 +376,11 @@ export var allDNBTransactions = [
     id: "40",
     from: {
       name: "Serena Royce",
-      country: "Italia",
+      country: "Italy",
     },
     to: {
       name: "Jason Momoa",
-      country: "Italia",
+      country: "Italy",
     },
     amount: 12552,
   },
@@ -388,11 +388,11 @@ export var allDNBTransactions = [
     id: "41",
     from: {
       name: "Sebastian Ellingsen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Erling Fjeldberg",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 25028,
   },
@@ -400,11 +400,11 @@ export var allDNBTransactions = [
     id: "42",
     from: {
       name: "Genevieve Engen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Erling Haaland",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 48,
   },
@@ -412,11 +412,11 @@ export var allDNBTransactions = [
     id: "43",
     from: {
       name: "Bella Campbell",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Karsten Warholm",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 6837,
   },
@@ -424,11 +424,11 @@ export var allDNBTransactions = [
     id: "44",
     from: {
       name: "Cosmo Henriksen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Kjerstin Braathen",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 27804,
   },
@@ -436,11 +436,11 @@ export var allDNBTransactions = [
     id: "45",
     from: {
       name: "Casper Paulsen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Kjerstin Braathen",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 21991,
   },
@@ -448,11 +448,11 @@ export var allDNBTransactions = [
     id: "46",
     from: {
       name: "Edward Solheim",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Kjerstin Braathen",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 4253,
   },
@@ -460,11 +460,11 @@ export var allDNBTransactions = [
     id: "47",
     from: {
       name: "Steven Næss",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Kjerstin Braathen",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 80101,
   },
@@ -472,11 +472,11 @@ export var allDNBTransactions = [
     id: "48",
     from: {
       name: "Kristoffer Hoven",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Ane By Farstad",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 5175,
   },
@@ -484,11 +484,11 @@ export var allDNBTransactions = [
     id: "49",
     from: {
       name: "Andreas Vister",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Maria Løvold",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 90188,
   },
@@ -497,11 +497,11 @@ export var allDNBTransactions = [
     id: "50",
     from: {
       name: "Martine Lunde",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Alexander Sæterstøl",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 1316,
   },
@@ -509,7 +509,7 @@ export var allDNBTransactions = [
     id: "51",
     from: {
       name: "Sondre Amundsen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Mats Zuccarello",
@@ -521,11 +521,11 @@ export var allDNBTransactions = [
     id: "52",
     from: {
       name: "Astrid Jakobsen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Therese Johaug",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 39574,
   },
@@ -533,11 +533,11 @@ export var allDNBTransactions = [
     id: "53",
     from: {
       name: "Mia Gundersen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Johannes Høsflot Klæbo",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 26,
   },
@@ -545,11 +545,11 @@ export var allDNBTransactions = [
     id: "54",
     from: {
       name: "Christine Halvorsen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Henrik Kristoffersen",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 3040,
   },
@@ -557,11 +557,11 @@ export var allDNBTransactions = [
     id: "55",
     from: {
       name: "Martin Ødegaard",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Petter Northug",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 912820,
   },
@@ -569,11 +569,11 @@ export var allDNBTransactions = [
     id: "56",
     from: {
       name: "Simen Eriksen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Kristin Skogly",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 74329,
   },
@@ -581,11 +581,11 @@ export var allDNBTransactions = [
     id: "57",
     from: {
       name: "Maria Bakken",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Hanna Nilsen",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 1292,
   },
@@ -593,11 +593,11 @@ export var allDNBTransactions = [
     id: "58",
     from: {
       name: "Håvard Moe",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Viktor Hovland",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 63,
   },
@@ -605,11 +605,11 @@ export var allDNBTransactions = [
     id: "59",
     from: {
       name: "Line Hagen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Tiril Eckhoff",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 40672,
   },
@@ -617,11 +617,11 @@ export var allDNBTransactions = [
     id: "60",
     from: {
       name: "Frid-Ragnhild Andersen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Sander Sagosen",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 1090913,
   },
@@ -629,11 +629,11 @@ export var allDNBTransactions = [
     id: "61",
     from: {
       name: "Steffen Dahl",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Magnus Carlsen",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 10000,
   },
@@ -641,11 +641,11 @@ export var allDNBTransactions = [
     id: "62",
     from: {
       name: "Hanna Andreassen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Nora Mørk",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 6266,
   },
@@ -653,11 +653,11 @@ export var allDNBTransactions = [
     id: "63",
     from: {
       name: "Ingrid Martinsen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Anniken Jørgensen",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 1092,
   },
@@ -665,11 +665,11 @@ export var allDNBTransactions = [
     id: "64",
     from: {
       name: "Rebekka Berg",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Amalie Snøløs",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 101010,
   },
@@ -677,11 +677,11 @@ export var allDNBTransactions = [
     id: "65",
     from: {
       name: "Kajsa Moen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Camilla Phil",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 1,
   },
@@ -689,11 +689,11 @@ export var allDNBTransactions = [
     id: "66",
     from: {
       name: "Thea Olsen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Isabel Raad",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 423002,
   },
@@ -701,11 +701,11 @@ export var allDNBTransactions = [
     id: "67",
     from: {
       name: "Sigbjørn Kristoffersen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Vita Mashadi",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 0,
   },
@@ -713,11 +713,11 @@ export var allDNBTransactions = [
     id: "68",
     from: {
       name: "Erlend Semb",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Jørgine Massa Vasstrand",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 332,
   },
@@ -725,11 +725,11 @@ export var allDNBTransactions = [
     id: "69",
     from: {
       name: "Morgan Alexander Lund",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Emilie Nereng",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 5827,
   },
@@ -737,11 +737,11 @@ export var allDNBTransactions = [
     id: "70",
     from: {
       name: "Kevin Hansen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Jørgen Øyehaug",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 5563,
   },
@@ -749,11 +749,11 @@ export var allDNBTransactions = [
     id: "71",
     from: {
       name: "Fredrik Svendsen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Kristin Gjelsvik",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 3307,
   },
@@ -761,11 +761,11 @@ export var allDNBTransactions = [
     id: "72",
     from: {
       name: "Anniken Hoel",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Josefine West",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 8542,
   },
@@ -774,11 +774,11 @@ export var allDNBTransactions = [
     id: "73",
     from: {
       name: "Audun Ludvigsen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Stine Sigvartsen",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 7318,
   },
@@ -786,11 +786,11 @@ export var allDNBTransactions = [
     id: "74",
     from: {
       name: "Stian Engebretsen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Markus Nordahl",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 25843,
   },
@@ -798,11 +798,11 @@ export var allDNBTransactions = [
     id: "75",
     from: {
       name: "Regine Moen Hansen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Alexander Nakken",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 2787,
   },
@@ -810,11 +810,11 @@ export var allDNBTransactions = [
     id: "76",
     from: {
       name: "Simone Solli",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Brage Nordheim",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 25328,
   },
@@ -822,11 +822,11 @@ export var allDNBTransactions = [
     id: "77",
     from: {
       name: "Hans-Christian Nilssen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Kristin Skogly",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 34653,
   },
@@ -834,11 +834,11 @@ export var allDNBTransactions = [
     id: "78",
     from: {
       name: "Maja Therese Øyo",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Maren-Sofie Victoria Vogt",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 6682,
   },
@@ -846,11 +846,11 @@ export var allDNBTransactions = [
     id: "79",
     from: {
       name: "Nikolai Olsen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Andre Nittedal",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 55270,
   },
@@ -858,11 +858,11 @@ export var allDNBTransactions = [
     id: "80",
     from: {
       name: "Julie Reitan",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Astrid Smeplass",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 30903,
   },
@@ -870,11 +870,11 @@ export var allDNBTransactions = [
     id: "81",
     from: {
       name: "Lillian Smith",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Mille Victoria Heimdal",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 59976,
   },
@@ -882,11 +882,11 @@ export var allDNBTransactions = [
     id: "82",
     from: {
       name: "Abdi Aasheim",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Cengiz AI",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 19844,
   },
@@ -894,11 +894,11 @@ export var allDNBTransactions = [
     id: "83",
     from: {
       name: "Caroline Olafsen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Zara Larsson",
-      country: "Sverige",
+      country: "Sweden",
     },
     amount: 63484,
   },
@@ -906,7 +906,7 @@ export var allDNBTransactions = [
     id: "84",
     from: {
       name: "Kristoffer Bergheim",
-      country: "Danmark",
+      country: "Denmark",
     },
     to: {
       name: "Shawn Mendes",
@@ -918,11 +918,11 @@ export var allDNBTransactions = [
     id: "85",
     from: {
       name: "Snorre Klanderud",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Emma Steinbakken",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 74545,
   },
@@ -930,11 +930,11 @@ export var allDNBTransactions = [
     id: "86",
     from: {
       name: "Eli Lindeberg",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Victoria Nadine",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 28312,
   },
@@ -942,11 +942,11 @@ export var allDNBTransactions = [
     id: "87",
     from: {
       name: "Mai-Julie Nyborg",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Chirag Rashmikant Patel",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 1245,
   },
@@ -954,11 +954,11 @@ export var allDNBTransactions = [
     id: "88",
     from: {
       name: "Adrian Sellevold",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Pattie Mallette",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 82,
   },
@@ -967,11 +967,11 @@ export var allDNBTransactions = [
     id: "89",
     from: {
       name: "Helene Hima",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Andre Skaug Amundsen",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 749,
   },
@@ -979,11 +979,11 @@ export var allDNBTransactions = [
     id: "90",
     from: {
       name: "Ronja Endresen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Elisabeth Stirling",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 2703,
   },
@@ -991,11 +991,11 @@ export var allDNBTransactions = [
     id: "91",
     from: {
       name: "Henrik Viken",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Sondre Amundsen",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 5757,
   },
@@ -1003,11 +1003,11 @@ export var allDNBTransactions = [
     id: "92",
     from: {
       name: "Vetle Berthelsen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Magdi Omar Ytreeide Abdelmaguid",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 5931,
   },
@@ -1015,11 +1015,11 @@ export var allDNBTransactions = [
     id: "93",
     from: {
       name: "Maren Sørum",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Håvard Moe",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 6217,
   },
@@ -1027,11 +1027,11 @@ export var allDNBTransactions = [
     id: "94",
     from: {
       name: "Pål Nyhus",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Thea Olsen",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 2246,
   },
@@ -1039,11 +1039,11 @@ export var allDNBTransactions = [
     id: "95",
     from: {
       name: "Kasper Fredheim",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Regine Moen Hansen",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 1370,
   },
@@ -1051,11 +1051,11 @@ export var allDNBTransactions = [
     id: "96",
     from: {
       name: "Mathias Kaspersen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Amanda Foss",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 2215,
   },
@@ -1063,7 +1063,7 @@ export var allDNBTransactions = [
     id: "97",
     from: {
       name: "Thomas Heyes",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Ariana Grande",
@@ -1075,11 +1075,11 @@ export var allDNBTransactions = [
     id: "98",
     from: {
       name: "Herman Tømmeraas",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Josefine Frida Pettersen",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 561,
   },
@@ -1087,11 +1087,11 @@ export var allDNBTransactions = [
     id: "99",
     from: {
       name: "Alexandra Melby",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Ulrikke Falch",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 6200,
   },
@@ -1099,11 +1099,11 @@ export var allDNBTransactions = [
     id: "100",
     from: {
       name: "Julianne Nyland",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Iselin Guttormsen",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 5874,
   },
@@ -1111,11 +1111,11 @@ export var allDNBTransactions = [
     id: "101",
     from: {
       name: "Julianne Hansen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Iselin Guttormsen",
-      country: "Italia",
+      country: "Italy",
     },
     amount: 58747,
   },
@@ -1123,7 +1123,7 @@ export var allDNBTransactions = [
     id: "102",
     from: {
       name: "Jonas Gahr Støre",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Alexander Volenski",
@@ -1135,11 +1135,11 @@ export var allDNBTransactions = [
     id: "103",
     from: {
       name: "Mathias Jensen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Carmen Electra",
-      country: "Italia",
+      country: "Italy",
     },
     amount: 5874,
   },
@@ -1147,11 +1147,11 @@ export var allDNBTransactions = [
     id: "104",
     from: {
       name: "Maren Mansen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Josefine Melan",
-      country: "Danmark",
+      country: "Denmark",
     },
     amount: 744,
   },
@@ -1159,11 +1159,11 @@ export var allDNBTransactions = [
     id: "105",
     from: {
       name: "Abdullah Zalid",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Josefine Melan",
-      country: "Danmark",
+      country: "Denmark",
     },
     amount: 744,
   },
@@ -1171,11 +1171,11 @@ export var allDNBTransactions = [
     id: "106",
     from: {
       name: "Hassan Hamad",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Josef Hansen",
-      country: "Danmark",
+      country: "Denmark",
     },
     amount: 200,
   },
@@ -1183,11 +1183,11 @@ export var allDNBTransactions = [
     id: "107",
     from: {
       name: "Carmen Electra",
-      country: "Italia",
+      country: "Italy",
     },
     to: {
       name: "Josefine Melan",
-      country: "Italia",
+      country: "Italy",
     },
     amount: 7200,
   },
@@ -1199,7 +1199,7 @@ export var allDNBTransactions = [
     },
     to: {
       name: "Lizzi Minok",
-      country: "Spania",
+      country: "Spain",
     },
     amount: 2050,
   },
@@ -1207,11 +1207,11 @@ export var allDNBTransactions = [
     id: "109",
     from: {
       name: "Guri Solberg",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Carolina Sofia",
-      country: "Spania",
+      country: "Spain",
     },
     amount: 455,
   },
@@ -1219,11 +1219,11 @@ export var allDNBTransactions = [
     id: "110",
     from: {
       name: "Ahmed Zahid",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Larsa Loren",
-      country: "Spania",
+      country: "Spain",
     },
     amount: 22,
   },
@@ -1231,11 +1231,11 @@ export var allDNBTransactions = [
     id: "111",
     from: {
       name: "Mina Solberg",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Carmen Sol",
-      country: "Spania",
+      country: "Spain",
     },
     amount: 2050,
   },
@@ -1243,7 +1243,7 @@ export var allDNBTransactions = [
     id: "112",
     from: {
       name: "Guri Solberg",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Jay Z",
@@ -1255,7 +1255,7 @@ export var allDNBTransactions = [
     id: "113",
     from: {
       name: "Solveig Hansen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Maddie Larsa",
@@ -1267,11 +1267,11 @@ export var allDNBTransactions = [
     id: "114",
     from: {
       name: "Mads Larsen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Lizzi Minok",
-      country: "Spania",
+      country: "Spain",
     },
     amount: 535,
   },
@@ -1279,7 +1279,7 @@ export var allDNBTransactions = [
     id: "115",
     from: {
       name: "Lise Nilsen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "John Cena",
@@ -1291,11 +1291,11 @@ export var allDNBTransactions = [
     id: "116",
     from: {
       name: "John Cena",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Carmen Electra",
-      country: "Spania",
+      country: "Spain",
     },
     amount: 2050,
   },
@@ -1303,11 +1303,11 @@ export var allDNBTransactions = [
     id: "117",
     from: {
       name: "Endre Nicolaisen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Nikolai Olsen",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 1000,
   },
@@ -1315,11 +1315,11 @@ export var allDNBTransactions = [
     id: "118",
     from: {
       name: "Celestine Louise Opseth",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Maja Therese Øyo",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 1000,
   },
@@ -1327,11 +1327,11 @@ export var allDNBTransactions = [
     id: "119",
     from: {
       name: "Stine Sigvartsen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Rebekka Berg",
-      country: "Norge",
+      country: "Norway",
     },
     amount: 4928702,
   },
@@ -1339,11 +1339,11 @@ export var allDNBTransactions = [
     id: "120",
     from: {
       name: "Karan Singh",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Hanna Andreassen",
-      country: "Sverige",
+      country: "Sweden",
     },
     amount: 850,
   },
@@ -1351,11 +1351,11 @@ export var allDNBTransactions = [
     id: "121",
     from: {
       name: "Maria Løvold",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Kjerstin Braathen",
-      country: "Sverige",
+      country: "Sweden",
     },
     amount: 27500,
   },
@@ -1363,11 +1363,11 @@ export var allDNBTransactions = [
     id: "122",
     from: {
       name: "Markus Nordahl",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Thomas Heyes",
-      country: "Sverige",
+      country: "Sweden",
     },
     amount: 3020,
   },
@@ -1375,7 +1375,7 @@ export var allDNBTransactions = [
     id: "123",
     from: {
       name: "Emil Christoffersen",
-      country: "Norge",
+      country: "Norway",
     },
     to: {
       name: "Martin Ødegaard",
@@ -1387,11 +1387,11 @@ export var allDNBTransactions = [
     id: "124",
     from: {
       name: "Henrik Sundby",
-      country: "Danmark",
+      country: "Denmark",
     },
     to: {
       name: "Erle Vigdal",
-      country: "Danmark",
+      country: "Denmark",
     },
     amount: 100,
   },
