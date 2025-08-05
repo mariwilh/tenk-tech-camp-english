@@ -1127,7 +1127,7 @@ export var allDNBTransactions = [
     },
     to: {
       name: "Alexander Volenski",
-      country: "Russland",
+      country: "Russia",
     },
     amount: 10387439,
   },
