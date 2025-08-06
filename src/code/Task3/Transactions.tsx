@@ -1,5 +1,5 @@
 import React from "react";
-import { Dropdown, H1, Input, Section } from "@dnb/eufemia";
+import { Dropdown, H1, P, Input, Section } from "@dnb/eufemia";
 import { TransactionTable } from "./DetailsTable";
 import { filterTable } from "../../ignore/codeDump";
 
@@ -7,7 +7,7 @@ export enum Parameter {
   FROM_NAME = "Sender's name",
   FROM_COUNTRY = "Sender's country",
   TO_NAME = "Recipient's name",
-  TO_COUNTRY = "Sender's country",
+  TO_COUNTRY = "Recipient's country",
   AMOUNT = "Amount",
   RISK = "Risk",
 }
